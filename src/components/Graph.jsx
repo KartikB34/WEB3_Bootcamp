@@ -30,17 +30,19 @@ const Graph = () => {
             </div>
 
             <div className="button">
-                <button>FILL THE FORM</button>
+                <button>REGISTER NOW !</button>
             </div>
 
         </div>
 
-        <div className="graph-image">
-            <img src={graph} alt='graph' />
-        </div>
+        <div className="graph-images">
+            <div className="graph-image">
+                <img src={graph} alt='graph' />
+            </div>
 
-        <div className='mancoin'>
-            <img src={mancoin} alt='mancoin' />
+            <div className='mancoin'>
+                <img src={mancoin} alt='mancoin' />
+            </div>
         </div>
 
 

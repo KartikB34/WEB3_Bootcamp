@@ -21,7 +21,6 @@
 
 .champion-image img{
     width: 22rem;
-    height: 22rem;
 }
 
 .champion-image h2{
@@ -62,8 +61,68 @@
 }
 
 .swtich-content img{
-    width: 17rem;
     height: 20rem;
 
     margin: 2rem 5rem 2rem 0;
+}
+
+@media screen and (max-width: 1025px){
+    .champion-image img{
+        width: 18rem;
+    }
+
+    .champion-text{
+        text-align: left;
+        width: 43rem;
+        padding-right: 8rem;
+    }
+}
+
+@media screen and (max-width: 914px){
+    .champion-image img{
+        width: 13rem;
+    }
+
+    .champion-text{
+        width: 40rem;
+        padding-right: 6rem;
+    }
+
+    .swtich-content img{
+        height: 15rem;
+    
+        margin: 0 5rem 3rem 0;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .champion-content{
+        flex-direction: column;
+    }
+
+    .champion-text{
+        width: 100%;
+        padding-right: 0rem;
+    }
+
+    .swtich-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    .switch-title p{
+        font-size: 30px;
+    }
+    
+    .switch-title span{
+        font-size: 31px;
+    }
+
+    .points{
+        width: 22rem;
+    }
+
 }

@@ -33,6 +33,13 @@
     margin-top: 0.4rem;
 }
 
+.graph-images{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
 .graph-image img{
     height: 24rem;
     width: 19rem;
@@ -61,4 +68,87 @@
     margin-left: 2rem;
     height: 14rem;
     width: 10rem;
+}
+
+@media screen and (max-width: 1025px){
+
+    .graph-div{
+        padding: 2rem 3rem;
+    }
+
+    .graph-image img{
+        height: 20rem;
+        width: 15rem;
+    }
+
+    .mancoin img{
+        height: 12rem;
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width: 914px){
+    .graph-div{
+        flex-direction: column;
+        padding: 2rem 6rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .graph-text{
+        text-align: left;
+        padding-right: 2rem;
+    }
+
+    .mancoin{
+        padding-left: 6rem;
+    }
+
+    .graph-images{
+        padding-top: 4rem;
+    }
+
+    .mancoin img{
+        height: 17rem;
+        width: 12rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .mancoin img{
+        height: 10rem;
+        width: 7rem;
+    }
+
+    .graph-image img{
+        height: 15rem;
+        width: 12rem;
+    }
+
+}
+
+@media screen and (max-width: 400px)
+{
+
+    .graph-para{
+        width: 20rem;
+    }
+
+    .graph-images{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mancoin img{
+        height: 10rem;
+        width: 7rem;
+        
+    }
+
+    .mancoin{
+        margin: 0;
+        padding: 2rem 3rem 0 0;
+    }
 }

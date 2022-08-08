@@ -39,7 +39,12 @@
     color: white;
 }
 
-
+.backbone-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
 
 .backbone-image img{
     height: 17rem;
@@ -48,4 +53,82 @@
 .backbone-points{
     width: 38rem;
     margin: 0 7rem;
+}
+
+@media screen and (max-width: 1248px){
+
+    .backbone-content{
+        margin-top: 2rem;
+    }
+
+    .backbone-points{
+        width: 27rem;
+        height: 25rem;
+        margin: 0 5rem;
+    }
+
+    .backbone-image img{
+        height: 15rem;
+    }
+
+    .low-width-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 914px) {
+
+    .backbone-content{
+        flex-direction: column;
+    }
+
+    .backbone-tabs{
+        flex-direction: row;
+    }
+
+    .backbone-main{
+        margin-top: 2rem;
+    }
+
+    .tab{
+        margin-left: 1rem;
+    }
+
+    .backbone-container{
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .backbone-main{
+        flex-direction: column;
+    }
+
+    .backbone-image img{
+        height: 14rem;
+    }
+
+    .backbone-points{
+        width: 20rem;
+    }
+
+    .backbone-tabs{
+        flex-wrap: wrap;
+        width: 25rem;
+    }
+    .dist{
+        margin: 0.5rem 0.5rem;
+    }
+
+    .tab{
+        height: 3rem;
+        width: 6rem;
+    }
+    
 }

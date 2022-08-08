@@ -52,3 +52,41 @@
 .faq-accordion{
     width: 40rem;
 }
+
+@media screen and (max-width: 1025px){
+    .faq-accordion{
+        width: 25rem;
+    }
+
+    .faq-contact{
+        width: 20rem;
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .faq-questions{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center
+    }
+
+    .faq-title{
+        width: 24rem;
+    }
+    
+    .faq-contact{
+        width: 25rem;
+        padding: 2rem 4rem 2rem 2rem ;
+    }
+
+    .faq-accordion{
+        width: 23rem;
+        padding-right: 7rem;
+    }
+
+    .faq-title p{
+        font-size: 25px;
+    }
+}

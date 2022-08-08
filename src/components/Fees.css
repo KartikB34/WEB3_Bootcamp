@@ -33,3 +33,28 @@
     font-size: 45px;
     margin: 0;
 }
+
+@media screen and (max-width: 400px){
+    .fee-structure{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fees{
+        margin-right: 0rem;
+    }
+
+    .fee-image img{
+        margin-top: 3rem;
+        width: 10rem;
+        height: 17rem;
+    }
+
+    .two-minute{
+        padding: 3rem 1rem;
+    }
+
+    .two-minute p{
+        font-size: 23px;
+    }
+}
