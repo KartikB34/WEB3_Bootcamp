@@ -23,7 +23,9 @@ const Landing = () => {
 
     <div className="revolution">
       <img src={bluehex} alt="hex" />
-      <h3>WEB3 Development can bring revolution in your salaries!</h3>
+      <div className='revolution-text'>
+        <h3>WEB3 Development can bring revolution in your salaries!</h3>
+      </div>
     </div>
 
     <div className="career">
