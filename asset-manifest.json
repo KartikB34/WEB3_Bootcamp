@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/WEB3_Bootcamp/static/css/main.ab412f85.css",
+    "main.js": "/WEB3_Bootcamp/static/js/main.a0887d58.js",
+    "static/media/bgcareer.png": "/WEB3_Bootcamp/static/media/bgcareer.5c03dd9dfc6d86d023dc.png",
+    "static/media/bgrevolution.png": "/WEB3_Bootcamp/static/media/bgrevolution.2f08992e6d686cfa16aa.png",
+    "static/media/bgone.png": "/WEB3_Bootcamp/static/media/bgone.1861c06a88cbf241b027.png",
+    "static/media/faq.png": "/WEB3_Bootcamp/static/media/faq.8bf7412ae254382640da.png",
+    "static/media/champion.png": "/WEB3_Bootcamp/static/media/champion.5636af2cb68e1c2d4965.png",
+    "static/media/menwomentwo.png": "/WEB3_Bootcamp/static/media/menwomentwo.87fe7862dd4de295a18a.png",
+    "static/media/menwomen.png": "/WEB3_Bootcamp/static/media/menwomen.25082ae891b39fc5acc6.png",
+    "static/media/blubn.png": "/WEB3_Bootcamp/static/media/blubn.a70ba6abd5022af7642a.png",
+    "static/media/blubo.png": "/WEB3_Bootcamp/static/media/blubo.3271cca00d2b81908360.png",
+    "static/media/manfee.png": "/WEB3_Bootcamp/static/media/manfee.33112c5e0d9defb68175.png",
+    "static/media/mentor.jpg": "/WEB3_Bootcamp/static/media/mentor.941cbd291159c4a24d68.jpg",
+    "static/media/mancoin.png": "/WEB3_Bootcamp/static/media/mancoin.b51685294f59a3b92afd.png",
+    "static/media/graph.png": "/WEB3_Bootcamp/static/media/graph.b4e2951346c928850040.png",
+    "static/media/whitehex.png": "/WEB3_Bootcamp/static/media/whitehex.29f54d51f23c21e2ad9a.png",
+    "static/media/educator.jpg": "/WEB3_Bootcamp/static/media/educator.53da7616883a20755a5b.jpg",
+    "static/media/bluehex.png": "/WEB3_Bootcamp/static/media/bluehex.388cf0e1b57b52cb9b68.png",
+    "index.html": "/WEB3_Bootcamp/index.html",
+    "main.ab412f85.css.map": "/WEB3_Bootcamp/static/css/main.ab412f85.css.map",
+    "main.a0887d58.js.map": "/WEB3_Bootcamp/static/js/main.a0887d58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab412f85.css",
+    "static/js/main.a0887d58.js"
+  ]
+}
