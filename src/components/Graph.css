@@ -1,0 +1,59 @@
+.graph-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, rgba(118, 167, 220, 0.1) 0%, rgba(177, 205, 251, 0.1) 100%);
+    padding: 2rem 6rem;
+}
+
+.graph-text{
+    text-align: left;
+    padding-right: 7rem;
+}
+
+.blocks{
+    padding: 1rem 0 3rem 0;
+}
+
+.block{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #006DF6;
+
+    margin-left: 0.6rem;
+    margin-top: 0.4rem;
+}
+
+.graph-image img{
+    height: 24rem;
+    width: 19rem;
+    border-style: solid;
+    border-radius: 2rem;
+    border-color: #006DF6;
+}
+
+.button button{
+    height: 3rem;
+    width: 9rem;
+
+    background-color: #003979;
+    color: white;
+
+    border-radius: 10px;
+    border-width: 0;
+}
+
+.button button:hover{
+    background-color:  #006DF6;
+    cursor: pointer;
+}
+
+.mancoin img{
+    margin-left: 2rem;
+    height: 14rem;
+    width: 10rem;
+}

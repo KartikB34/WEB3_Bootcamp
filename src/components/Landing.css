@@ -1,0 +1,97 @@
+.background {
+    background-image: url("../assets/bgone.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 100%;
+    height: 555px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text{
+    text-align: left;
+    margin-right: 10rem;
+    width: 45rem;
+}
+
+.text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    color: #006DF6;
+    margin: 0;
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    margin: 1rem 0 0 0;
+}
+
+.image img{
+    width: 25rem;
+    height: 25rem;
+}
+
+.revolution{
+    display: flex;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+
+    background-color: aquamarine;
+
+    height: 25rem;
+}
+
+.revolution img{
+    position: absolute;
+    left: 4rem;
+    height: 20rem;
+    width: 20rem;
+}
+
+.career{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.career-text{
+    width: 750px;
+}
+
+.career-text p{
+    font-weight: 700;
+    font-size: 62px;
+}
+
+.second-batch{
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.second-batch img{
+    width: 10rem;
+    height: 10rem;
+    margin: 0 2rem;
+}
+
+.second-batch p{
+    margin: 0;
+}

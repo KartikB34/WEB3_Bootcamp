@@ -1,0 +1,33 @@
+.perks-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.perks{
+    display: inline-block;
+    width: 50%;
+    padding-left: 4rem;
+}
+
+.perks span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #003979;
+}
+
+.perk-content{
+    background-color: #004AAD;
+    color: white;
+    width: 47.4rem;
+    padding: 4rem 7rem;
+    display: inline-block;
+}
+
+.perk-content p{
+    font-size: 40px;
+}
