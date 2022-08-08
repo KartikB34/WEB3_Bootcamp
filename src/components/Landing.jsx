@@ -30,7 +30,8 @@ const Landing = () => {
 
     <div className="career">
       <div className="career-text">
-        <p>Come make your <span className='hr3'>Career</span> in <span className='hr3'>WEB3</span></p>
+        <p>Come make your <span className='hr3'>Career</span></p> 
+        <p>in <span className='hr3'>WEB3</span></p>
       </div>
       <div className="image">
         <img src={whitehex} alt="hex" />

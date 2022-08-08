@@ -19,7 +19,7 @@ code {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 62px;
+  font-size: 45px;
   margin: 0;
 }
 
@@ -27,7 +27,7 @@ code {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 62px;
+  font-size: 45px;
   color: #003979;
   margin: 0;
 }
@@ -36,7 +36,11 @@ code {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 62px;
+  font-size: 45px;
   color: #006DF6;
   margin: 0;
+}
+
+li{
+  font-size: larger;
 }

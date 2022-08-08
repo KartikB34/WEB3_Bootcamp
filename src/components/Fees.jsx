@@ -27,7 +27,8 @@ const Fees = () => {
     </div>
 
     <div className="two-minute">
-        <p>Maybe you are <span className='hr2'>2 minutes</span> away from <span className='hr2'> revolutionising</span> your career!</p>
+        <p>Maybe you are <span className='hr2'>2 minutes</span> away from</p>
+        <p> <span className='hr2'> revolutionising</span> your career!</p>
     </div>
     </>
   )
