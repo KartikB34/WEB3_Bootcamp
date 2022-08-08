@@ -1,0 +1,51 @@
+.backbone-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, rgba(118, 167, 220, 0.2) 0%, rgba(177, 205, 251, 0.2) 100%);
+    padding: 2rem 0;
+}
+
+.backbone-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.backbone-tabs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dist{
+    border-color: none;
+    margin: 1rem 0;
+    padding: 2px;
+}
+
+.dist:hover{
+    background: linear-gradient(135deg, #006DF6 0%, #FFFFFF 100%);
+}
+
+.selected{
+    background: linear-gradient(135deg, #006DF6 0%, #FFFFFF 100%);
+    color: white;
+}
+
+
+
+.backbone-image img{
+    height: 17rem;
+}
+
+.backbone-points{
+    width: 38rem;
+    margin: 0 7rem;
+}

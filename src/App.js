@@ -7,6 +7,7 @@ import Solution from './components/solution/Solution'
 import Perks from './components/Perks'
 import Fees from './components/Fees'
 import Faq from './components/Faq'
+import Backbone from './components/backbone/Backbone'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
     <Landing />
     <Graph />
     <Champions />
+    <Backbone />
     <Perks />
     <Fees />
     <Solution />

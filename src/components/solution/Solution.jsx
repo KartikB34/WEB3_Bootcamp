@@ -24,49 +24,21 @@ const Solution = () => {
         setContent('Ecosystem')
     }
 
-
-    const buttonStyle = {
-        // backgroundColor: 'white',
-    }
-
   return (
     <div className='solution-content'>
 
-        <h2>Your one stop solution</h2>
+        <p> <span className='hr1'>Your one stop </span><span className='hr2'>Solution</span> </p>
 
         <div className="solution-tabs">
-            <button className="tab" style={buttonStyle} onClick={placementHandler}> PLACEMENT </button>
-            <button className="tab" onClick={mentorshipHandler}> MENTORSHIP </button>
-            <button className="tab" onClick={experienceHandler}> EXPERIENCE </button>
-            <button className="tab" onClick={learningHandler}> LEARNING </button>
-            <button className="tab" onClick={ecosystemHandler}> ECOSYSTEM </button>
+            <button className={`tab ${content==='Placement'? `tab-selected` : ``}`} onClick={placementHandler}> PLACEMENT </button>
+            <button className={`tab ${content==='Mentorship'? `tab-selected` : ``}`} onClick={mentorshipHandler}> MENTORSHIP </button>
+            <button className={`tab ${content==='Experience'? `tab-selected` : ``}`} onClick={experienceHandler}> EXPERIENCE </button>
+            <button className={`tab ${content==='Learning'? `tab-selected` : ``}`} onClick={learningHandler}> LEARNING </button>
+            <button className={`tab ${content==='Ecosystem'? `tab-selected` : ``}`} onClick={ecosystemHandler}> ECOSYSTEM </button>
         </div>
     
-        <div className="routes">
-
+        <div className="solution-points">
             <Content content={content} />
-            {/* <Switch>
-              <Route exact path={"/placement"} >
-                <Content content='Placement' />
-              </Route>
-
-              <Route exact path={"/mentorship"} >
-                <Content content='Mentorship' />
-              </Route>
-
-              <Route exact path={"/experience"} >
-                <Content content='Experience' />
-              </Route>
-
-              <Route exact path={"/learning"} >
-                <Content content='Learning' />
-              </Route>
-
-              <Route exact path={"/ecosystem"} >
-                <Content content='Ecosystem' />
-              </Route>
-
-            </Switch> */}
         </div>
 
     </div>
