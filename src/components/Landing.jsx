@@ -42,7 +42,7 @@ const Landing = () => {
       <img src={blubo} alt="blubo" />
       <div className='second-batch-text'>
         <p><span className='hr2'>Second batch for</span> <span className='hr3'>WEB3</span> <span className='hr2'>Enthusiasts</span></p>
-        <p>A project orientated program exclusive for working professionals on weekends </p>
+        <p>A project orientated program for working professionals and students on weekends </p>
       </div>
       <img src={blubn} alt="blubn" />
     </div>
