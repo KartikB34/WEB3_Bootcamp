@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Noto Sans');
 @import url('https://rsms.me/inter/inter.css');
 
+* {
+  /* width: 100%; */
+}
+
 body {
   margin: 0;
   padding: 0;

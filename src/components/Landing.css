@@ -208,11 +208,15 @@ p{
     }
 
     .revolution-text{
-        width: 32rem;
+        width: 100%;
     }
     
     .revolution img{
         height: 6rem;
+    }
+
+    .career-text{
+        width: 10rem;
     }
 
     .career-text p{
@@ -226,7 +230,6 @@ p{
     .second-batch{
         flex-direction: column;
     }
-
     .second-batch img{
         position: relative;
         height: 3rem;

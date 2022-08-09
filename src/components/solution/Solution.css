@@ -69,6 +69,7 @@
 }
 
 @media screen and (max-width: 400px) {
+
     .solution-tabs{
         flex-wrap: wrap;
     }

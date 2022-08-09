@@ -7,11 +7,11 @@ const Perks = () => {
         <div className="perks">
             <span>Perks of learning WEB3</span>
             <div className='list'>
-            <ul>
-                <li>Less competition</li>
-                <li>High salary</li>
-                <li>Open global WEB3 developer job</li>
-            </ul>
+              <ul>
+                 <li>Less competition</li>
+                 <li>High salary</li>
+                   <li>Open global WEB3 developer job</li>
+              </ul>
             </div>
         </div>
         

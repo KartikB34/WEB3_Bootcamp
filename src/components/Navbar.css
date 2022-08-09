@@ -68,4 +68,8 @@
     
         border-radius: 10px;
     }
+
+    .small-img img{
+        width: 9rem;
+    }
 }

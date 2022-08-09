@@ -106,6 +106,10 @@
 
 @media screen and (max-width: 400px){
 
+    .backbone-content{
+        width: 100%;
+    }
+
     .backbone-main{
         flex-direction: column;
     }
@@ -116,11 +120,12 @@
 
     .backbone-points{
         width: 20rem;
+        margin: 0;     
     }
 
     .backbone-tabs{
         flex-wrap: wrap;
-        width: 25rem;
+        width: 100%;
     }
     .dist{
         margin: 0.5rem 0.5rem;

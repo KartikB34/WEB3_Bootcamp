@@ -113,6 +113,11 @@
         text-align: left;
     }
 
+    .switching-fast{
+        padding: 1rem 1rem;
+        margin: 0;
+    }
+
     .switch-title p{
         font-size: 30px;
     }
@@ -122,7 +127,11 @@
     }
 
     .points{
-        width: 22rem;
+        width: 100%;
+    }
+
+    .swtich-content img{
+        margin: 1rem 0;
     }
 
 }

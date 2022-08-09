@@ -78,6 +78,15 @@ export default function DrawerAppBar(props: Props) {
           >
             <img src={logo} alt='logo' />
           </Typography>
+
+          <Box sx={{ display: { xs: 'block', sm: 'none' } }}>
+            <div className="small-img">
+              <img src={logo} alt='logo' />
+            </div>
+          </Box>
+
+
+          
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#000' }}>
@@ -87,6 +96,8 @@ export default function DrawerAppBar(props: Props) {
             <button className='button login'>Login</button>
             <button className='button register'>Register</button>
           </Box>
+
+
         </Toolbar>
       </AppBar>
       <Box component="nav">
