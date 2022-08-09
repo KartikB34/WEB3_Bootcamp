@@ -15,7 +15,7 @@ const Graph = () => {
                     <span className='hr2'>Get a</span>
                     <span className='hr3'> Guaranteed job</span>
                     <span className='hr2'> of minimum</span>
-                    <span className='hr3'> 5 LPA</span>
+                    <span className='hr3'> 6 LPA</span>
                 </p>
             </div>
 
