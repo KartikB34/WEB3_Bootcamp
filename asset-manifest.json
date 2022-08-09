@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WEB3_Bootcamp/static/css/main.ab412f85.css",
-    "main.js": "/WEB3_Bootcamp/static/js/main.a0887d58.js",
+    "main.css": "/WEB3_Bootcamp/static/css/main.feedb836.css",
+    "main.js": "/WEB3_Bootcamp/static/js/main.c273e556.js",
     "static/media/bgcareer.png": "/WEB3_Bootcamp/static/media/bgcareer.5c03dd9dfc6d86d023dc.png",
     "static/media/bgrevolution.png": "/WEB3_Bootcamp/static/media/bgrevolution.2f08992e6d686cfa16aa.png",
     "static/media/bgone.png": "/WEB3_Bootcamp/static/media/bgone.1861c06a88cbf241b027.png",
@@ -19,11 +19,11 @@
     "static/media/educator.jpg": "/WEB3_Bootcamp/static/media/educator.53da7616883a20755a5b.jpg",
     "static/media/bluehex.png": "/WEB3_Bootcamp/static/media/bluehex.388cf0e1b57b52cb9b68.png",
     "index.html": "/WEB3_Bootcamp/index.html",
-    "main.ab412f85.css.map": "/WEB3_Bootcamp/static/css/main.ab412f85.css.map",
-    "main.a0887d58.js.map": "/WEB3_Bootcamp/static/js/main.a0887d58.js.map"
+    "main.feedb836.css.map": "/WEB3_Bootcamp/static/css/main.feedb836.css.map",
+    "main.c273e556.js.map": "/WEB3_Bootcamp/static/js/main.c273e556.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab412f85.css",
-    "static/js/main.a0887d58.js"
+    "static/css/main.feedb836.css",
+    "static/js/main.c273e556.js"
   ]
 }
