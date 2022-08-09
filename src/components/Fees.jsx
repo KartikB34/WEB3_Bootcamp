@@ -1,5 +1,6 @@
 import React from 'react'
 import manfee from '../assets/manfee.png'
+import Card from './card/Card'
 
 import './Fees.css'
 
@@ -20,6 +21,14 @@ const Fees = () => {
                 <p> Rs. 10000 per week on enrolment</p>
                 <p> Next week: Rs. 10000</p>
             </div>
+            {/* <Card >
+                <div className="card-title">
+                    <h3>EARLY BIRD DISCOUNT!</h3>
+                </div>
+                <div className="card-content">
+                    <h1>70% OFF!</h1>
+                </div>
+            </Card> */}
             <div className="fee-image">
                 <img src={manfee} alt='fees' />
             </div>

@@ -34,7 +34,16 @@
     margin: 0;
 }
 
-@media screen and (max-width: 400px){
+.card-title{
+    height: 3rem;
+    border-radius: 14px 14px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+@media screen and (max-width: 450px){
 
     .fee-title{
         width: 100%;

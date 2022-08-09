@@ -6,7 +6,7 @@ import Content from './Content'
 
 const Solution = () => {
 
-    const [content, setContent] = useState('Placements');
+    const [content, setContent] = useState('Placement');
 
     const placementHandler = () => {
         setContent('Placement')
